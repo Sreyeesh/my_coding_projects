@@ -1,1 +1,1 @@
-This is my main projects
+This is my main projects folder. This is where you will see all my work 
