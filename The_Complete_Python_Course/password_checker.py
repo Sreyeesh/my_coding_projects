@@ -7,6 +7,7 @@ author: Sreyeesh Garimella
 user_name = input('please enter your name: ')
 user_list = []
 
+
 if user_name not in user_list:
     print(f'Hello {user_name},welcome!')
 elif len(user_name) > 0: # this is to calculate the length  of the list when users get added
@@ -19,6 +20,7 @@ user_password = []
 
 if enter_password in user_password:
     user_password.append(enter_password)
+
 print(f'thank you for entering your password ')
 
 show_password = input(str(f'would you like to see your password : yes or no ?  '))
@@ -31,6 +33,7 @@ if answer_no in show_password:
 if answer_yes in show_password:
     if enter_password not in user_password:
         print('this is your password',enter_password)
+
 
 
 
