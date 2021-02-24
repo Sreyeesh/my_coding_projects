@@ -15,15 +15,17 @@ elif len(user_name) > 0: # this is to calculate the length  of the list when use
 
 print(f'thank you for entering your name please set your password next')
 
-enter_password = input(str('please enter your password : '))
+enter_password = input('please enter your password : ')
 user_password = []
 
-if enter_password in user_password:
+if enter_password  in user_password:
     user_password.append(enter_password)
 
 print(f'thank you for entering your password ')
 
-show_password = input(str(f'would you like to see your password : yes or no ?  '))
+
+show_password = input(f'would you like to see your password : yes or no ?  ')
+
 answer_no = 'no'
 answer_yes = 'yes'
 
