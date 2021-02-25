@@ -1,7 +1,7 @@
-"""
-project : simple age calculator
+'''
+project : simple age calulator
+author : Sreyeesh
+'''
 
-author: Sreyeesh
-
-"""
+user_name = input('What is your name ?')
 
