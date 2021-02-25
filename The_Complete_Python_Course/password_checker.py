@@ -23,7 +23,7 @@ else:
     print('this is your password',enter_password)
 
 
-
+show_user = input('would you like to see the list of users : yes or no ')
 
 #TODO: Iterate through the user list to show users that have signed up
 
