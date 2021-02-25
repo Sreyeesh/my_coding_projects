@@ -24,19 +24,6 @@ if enter_password  in user_password:
 print(f'thank you for entering your password ')
 
 
-# show_password = input(f'would you like to see your password : yes or no ?  ')
-#
-# answer_no = 'no'
-# answer_yes = 'yes'
-#
-# if answer_no in show_password:
-#     print('password will not be shown')
-#
-# if answer_yes in show_password:
-#     if enter_password not in user_password:
-#         print('this is your password',enter_password)
-#
-
 show_password = input(f'would you like to see your password : yes or no ?  ')
 
 if show_password == 'no':
