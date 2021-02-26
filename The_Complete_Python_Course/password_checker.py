@@ -4,6 +4,7 @@ author: Sreyeesh Garimella
 
 """
 
+
 user_name = input('please enter your name: ')
 user_list = []
 
@@ -25,8 +26,4 @@ else:
 
 show_user = input('would you like to see the list of users : yes or no ')
 
-#TODO: Iterate through the user list to show users that have signed up
-
-
-#TODO: have users reset password
 

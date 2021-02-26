@@ -18,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1otPiEn12a9EXrt1m0xn5samJrT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
