@@ -3,10 +3,13 @@ project : simple age calulator
 author : Sreyeesh
 '''
 
-user_name = input('What is your name ?')
+user_name = input('what is your name ? ')
 
-age = int(input('what is your age ? '))
+print(f'Hello,{user_name}!')
 
-print(f'This is how many  you have lived {user_name}', age * 12 )
+user_age = input(int('what is your age ? '))
+print(f'Hello {user_name}, this is how  many months you be'.user_age * 12)
+
+
 
 
