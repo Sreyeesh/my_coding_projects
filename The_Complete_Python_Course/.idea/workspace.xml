@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="55d15a3b-035b-400a-96c5-5e81bd5ebb2c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_age_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_age_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/age_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/age_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.simple_age_calculator">
+  <component name="RunManager" selected="Python.age_calculator">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="The_Complete_Python_Course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,9 +60,6 @@
       <module name="The_Complete_Python_Course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -101,9 +99,6 @@
       <module name="The_Complete_Python_Course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -120,13 +115,13 @@
     </configuration>
     <list>
       <item itemvalue="Python.simple_age_calculator" />
-      <item itemvalue="Python.password_checker" />
       <item itemvalue="Python.age_calculator" />
+      <item itemvalue="Python.password_checker" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.password_checker" />
         <item itemvalue="Python.age_calculator" />
+        <item itemvalue="Python.password_checker" />
       </list>
     </recent_temporary>
   </component>

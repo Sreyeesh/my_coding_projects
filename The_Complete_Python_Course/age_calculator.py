@@ -14,14 +14,37 @@ if birth_month not in months:
     print('the month is entered incorrectly')
 
 current_month_value = months.index(current_month) + 1
+# print(current_month_value)
 birth_month_value = months.index(birth_month) + 1
+# print(birth_month_value)
 
 age = year - int(birth_year)
 
 if current_month_value < birth_month_value:
-    age = age - 1
-newAge = age + 1
-newAge_nextyear = age + 2
+    age = age -1
+    newAge = age + 1
+    newAge_nextyear = age + 2
+else :
+    age = age -1
+    newAge = age
+    newAge_nextyear = age + 2
+
+# if current_month_value > birth_month_value:
+#     age = age -1
+#     newAge = `age + 1
+#     newAge_nextyear = age + 2`
+
+
+
+# if current_month_value < birth_month_value:
+#     age = age -1
+#     newAge = age + 1
+#     newAge_nextyear = age + 2
+
+
+
+
+
 
 print(
     f'Hello, {name} you were born in the month of {birth_month} in  the year {birth_year}, your age is: {age},In the next couple of  months you will be {newAge}. Next year you will be {newAge_nextyear}')
