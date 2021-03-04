@@ -16,7 +16,7 @@ seconds = user_age_number * (365 * 24 * 60 * 60)
 
 print(f'you have lived for {user_age_number * 12 } months.')
 
-print(f' you lived for {seconds} seoncds so far.')
+print(f' You have  lived for {seconds} seoncds so far.')
 
 #
 # name = input("Enter your name: ")
