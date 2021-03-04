@@ -29,17 +29,7 @@ else :
     newAge = age
     newAge_nextyear = age + 2
 
-# if current_month_value > birth_month_value:
-#     age = age -1
-#     newAge = `age + 1
-#     newAge_nextyear = age + 2`
 
-
-
-# if current_month_value < birth_month_value:
-#     age = age -1
-#     newAge = age + 1
-#     newAge_nextyear = age + 2
 
 
 

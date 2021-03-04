@@ -8,7 +8,7 @@ user_name = input(' What is your name ? ')
 
 print(f'Hello, {user_name}')
 
-user_age =  input('What is your age: ')
+user_age = input('What is your age: ')
 
 user_age_number = int(user_age)
 
