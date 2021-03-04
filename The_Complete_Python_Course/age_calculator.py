@@ -30,11 +30,7 @@ else :
     newage_nextyear = age + 2
 
 
-
-
-
-
-
-
 print(
-    f'Hello, {name} you were born in the month of {birth_month} in  the year {birth_year}, your age is: {age},In the next couple of  months you will be {newAge}. Next year you will be {newage_nextyear}')
+    f'Hello, {name} you were born in the month of {birth_month} in  the year {birth_year}, '
+    f'your age is: {age},In the next couple of  months you will be {newAge}. '
+    f'Next year you will be {newage_nextyear}')
