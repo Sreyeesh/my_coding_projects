@@ -22,12 +22,12 @@ age = year - int(birth_year)
 
 if current_month_value < birth_month_value:
     age = age -1
-    newAge = age + 1
-    newAge_nextyear = age + 2
+    newage = age + 1
+    newage_nextyear = age + 2
 else :
     age = age -1
-    newAge = age
-    newAge_nextyear = age + 2
+    newage = age
+    newage_nextyear = age + 2
 
 
 
