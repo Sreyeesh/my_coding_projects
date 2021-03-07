@@ -32,5 +32,5 @@ else :
 
 print(
     f'Hello, {name} you were born in the month of {birth_month} in  the year {birth_year}, '
-    f'your age is: {age},In the next couple of  months you will be {newAge}. '
+    f'your age is: {age},In the next couple of  months you will be {newage}. '
     f'Next year you will be {newage_nextyear}')
