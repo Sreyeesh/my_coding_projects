@@ -20,9 +20,8 @@
 .navigation {
     /* border: 1px solid red; */
     background:  #ccf2ff;
-
-    overflow:auto;
-
+    overflow: auto;
+    padding: 10px
 }
 
 .nav-logo {
@@ -30,18 +29,19 @@
     /* border: 1px solid white; */
     float: left;
     width:180px;
+    padding-top: 13px;
+    width: 150px
 }
 
 .nav-logo img {
-    width: 120%;
-
+    width: 100px;
 
 }
 
 .nav-items {
     /* border: 1px solid white; */
     display: inline-block;
-    float:right;
+    float: right
     
 
 }
