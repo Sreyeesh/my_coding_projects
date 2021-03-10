@@ -96,3 +96,19 @@
 
 
 }
+.portfolio {
+    padding: 40px 0;
+
+}
+
+.portfolio .item-cont {
+    border: 1px solid red;
+    display: inline-block;
+    margin: 40px 0;
+    width: 49.7%;
+}
+
+.portfolio .item-cont .portfolio-item {
+    width: 450px;
+    
+}
