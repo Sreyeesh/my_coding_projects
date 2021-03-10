@@ -96,19 +96,27 @@
 
 
 }
+/* portfolio styles */
+
+
 .portfolio {
     padding: 40px 0;
-
-}
+  }
 
 .portfolio .item-cont {
     border: 1px solid red;
     display: inline-block;
     margin: 40px 0;
-    width: 49.7%;
-}
+    width: 100%;
+  }
 
-.portfolio .item-cont .portfolio-item {
-    width: 450px;
-    
-}
+  .portfolio .item-cont .portfolio-item {
+    background: url('http://source.unsplash.com/random');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  
