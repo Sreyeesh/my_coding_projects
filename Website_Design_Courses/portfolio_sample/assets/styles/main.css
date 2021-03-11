@@ -7,8 +7,8 @@
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  /* max-width: 1200px;
+  margin: 0 auto; */
 }
 
 /* NAVIGATION STYLES */
@@ -76,7 +76,7 @@
     background: url('../images/development_background.jpeg');
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 90vh;
     position: relative;
   }
 
@@ -122,9 +122,8 @@
     border: 1px solid red;
     display: inline-block;
     padding: 40px 0;
+    margin: 0 auto;
     width: 49.7%;
-    
-
     
   
   }
