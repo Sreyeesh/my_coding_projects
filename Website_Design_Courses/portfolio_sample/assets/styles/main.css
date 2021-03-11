@@ -1,83 +1,90 @@
 
-/*general*/
-*{
-    font-family:sans-serif;
+* GENERAL STYLES */
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width : 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/*navigation style*/
+/* NAVIGATION STYLES */
 
 .navigation {
-    /* border: 1px solid red; */
-    background: #f5f5f1;
-    overflow: auto;
-    padding: 10px;
-
-
-    
+  background: #4F5D75;
+  overflow: auto;
+  padding: 10px;
 }
 
 .nav-logo {
+  float: left;
+  padding-top: 13px;
+  width: 150px;
+}
+
+.nav-logo img {
+  width: 100%;
+}
+
+/* NAVIGATION STYLES */
+
+.navigation {
+    background: #4F5D75;
+    overflow: auto;
+    padding: 10px;
+  }
+  
+  .nav-logo {
     float: left;
     padding-top: 13px;
-    width: 180px;
+    width: 150px;
+  }
   
-
-}
-.nav-logo h1  {
+  .nav-logo img {
     width: 100%;
-
-}
-
-.nav-items {
-    /* border: 1px solid white; */
+  }
+  
+  .nav-items {
     display: inline-block;
     float: right;
-
-
-}
-
-.nav-items ul {
+  }
+  
+  .nav-items ul {
     padding: 0;
-}
-
-.nav-items ul li {
+  }
+  
+  .nav-items ul li {
     display: inline-block;
     margin: 0 5px 0 5px;
-
-}
-
-.nav-items ul li a {
-    color : #040205;
+  }
+  
+  .nav-items ul li a {
+    color: #ffffff;
     text-decoration: none;
-
-}
-
-.nav-items ul li a:hover {
+  }
+  
+  .nav-items ul li a:hover {
     color: orange;
-}
-/*header styles*/
+  }
+
+  /* HEADER STYLES */
 
 .header {
     background: url('../images/development_background.jpeg');
     background-size: cover;
     background-position: center;
     height: 80vh;
-    text-align: center;
-    position:relative;
+    position: relative;
+  }
 
-  
-}
-
-.header .header-text {
-    background: rgba(1, 1, 10, 0.8);
-    color: #fff;
-    display:block;
-    margin:auto;
+  .header .header-text {
+    background: rgba(1, 1, 1, 0.8);
+    color: #ffffff;
+    display: block;
+    margin: auto;
     max-height: 220px;
     max-width: 500px;
     padding: 40px;
@@ -87,36 +94,37 @@
     left: 0;
     right: 0;
     top: 0;
+  }
 
-}
+  .header .header-arrow {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -25px;
+  }
 
-.header .header-arrow {
-    position:absolute;
-    bottom:40px;
-
-
-}
-/* portfolio styles */
-
+  /* PORTFOLIO STYLES */
 
 .portfolio {
     padding: 40px 0;
   }
+  
+  .portfolio .item-cont {
+    border: 1px solid red;
+    /* display: inline-block; */
+    
+  
 
-.portfolio .item-cont {
+  }
+  
+  .portfolio .item-cont  {
+    /* background: url('http://source.unsplash.com/random'); */
     border: 1px solid red;
     display: inline-block;
-    margin: 40px 0;
-    width: 100%;
-  }
+    padding: 40px 0;
+    width: 49.7%;
+    
 
-  .portfolio .item-cont .portfolio-item {
-    background: url('http://source.unsplash.com/random');
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    width: 250px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
+    
   
+  }
