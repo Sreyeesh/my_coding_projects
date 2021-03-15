@@ -1,5 +1,5 @@
 
-* GENERAL STYLES */
+/* GENERAL STYLES */
 
 * {
   font-family: sans-serif;
@@ -7,8 +7,8 @@
 }
 
 .container {
-  /* max-width: 1200px;
-  margin: 0 auto; */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* NAVIGATION STYLES */
@@ -76,7 +76,7 @@
     background: url('../images/development_background.jpeg');
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 80vh;
     position: relative;
   }
 
@@ -106,24 +106,47 @@
   /* PORTFOLIO STYLES */
 
 .portfolio {
-    padding: 40px 0;
-  }
-  
-  .portfolio .item-cont {
-    border: 1px solid red;
-    /* display: inline-block; */
-    
-  
+  padding: 40px 0;
+}
 
-  }
-  
-  .portfolio .item-cont  {
-    /* background: url('http://source.unsplash.com/random'); */
+.portfolio .item-cont {
     border: 1px solid red;
-    display: inline-block;
-    padding: 40px 0;
-    margin: 0 auto;
-    width: 49.7%;
-    
-  
-  }
+  display: inline-block;
+  margin: 40px 0;
+  width: 49.7%;
+}
+
+.portfolio .item-cont .portfolio-item {
+  background: url('http://source.unsplash.com/random');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 450px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+
+}
+.portfolio .item-cont .portfolio-desc {
+  background: rgba(1,1,1, 0.8);
+}
+
+.portfolio .item-cont .portfolio-desc a {
+  color: #ffffff;
+}
+
+.portfolio .item-cont .portfolio-item.pizza {
+    background-image: url('../images/pizza.jpg');
+}
+
+.portfolio .item-cont .portfolio-item.bakery {
+    background-image: url('../images/bakery.jpg');
+}
+
+.portfolio .item-cont .portfolio-item.florist {
+    background-image: url('../images/flowers.jpg');
+}
+
+.portfolio .item-cont .portfolio-item.photo {
+    background-image: url('../images/photo.jpg');
+}
