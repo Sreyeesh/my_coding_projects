@@ -110,10 +110,12 @@
 }
 
 .portfolio .item-cont {
-    border: 1px solid red;
+  border: 1px solid red;
   display: inline-block;
   margin: 40px 0;
   width: 49.7%;
+  /* width:100%; */
+
 }
 
 .portfolio .item-cont .portfolio-item {
@@ -123,16 +125,22 @@
   height: 450px;
   width: 450px;
   margin: 0 auto;
-  position: relative;
+  /* position: relative;ß */
   overflow: hidden;
 
 }
 .portfolio .item-cont .portfolio-desc {
   background: rgba(1,1,1, 0.8);
+  padding: 10px 20px;
+  position:absolute;
+  bottom: -110px;
 }
 
 .portfolio .item-cont .portfolio-desc a {
   color: #ffffff;
+  text-decoration:none;
+  /* position:absolute; */
+
 }
 
 .portfolio .item-cont .portfolio-item.pizza {
