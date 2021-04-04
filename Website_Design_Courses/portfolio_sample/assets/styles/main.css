@@ -79,7 +79,7 @@
   max-width: 500px;
   padding: 40px;
   text-align: center;
-  position : absolute;
+  position : absolute; 
   bottom: 0;
   left: 0;
   right: 0;
@@ -89,5 +89,19 @@
 .header .header-arrow {
   position:absolute;
   bottom:40px;
+
+}
+
+/* portfolio */
+.portfolio {
+  padding: 40px 0;
+
+}
+
+.portfolio .item-cont {
+  border:1px solid red;
+  display:inline-block;
+  padding: 40px 0;
+  width: 49.7%;
 
 }
