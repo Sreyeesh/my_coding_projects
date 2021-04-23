@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55d15a3b-035b-400a-96c5-5e81bd5ebb2c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/The_Complete_Python_Course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/The_Complete_Python_Course.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Design_Courses/portfolio_sample/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Design_Courses/portfolio_sample/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +32,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.shopping_cart">
+  <component name="RunManager" selected="Python.age_calculator">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="The_Complete_Python_Course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,9 +124,6 @@
       <module name="The_Complete_Python_Course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
