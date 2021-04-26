@@ -20,7 +20,6 @@ friend_name = input('What is your friends name ? ')
 
 user_friends.add(friend_name)
 
-    
  # Print out the intersection between both sets. This gives us a set with those friends that are nearby.
 print("nearby_people intersection of user_friends: ",user_friends.intersection(nearby_people))
    
