@@ -19,6 +19,7 @@ def panagram_phrase(a_z,panagram):
             
         else:
             print('the letters are not in the panagram: ', letter.upper())
+            
         
     
 panagram_phrase(a_z,panagram)
