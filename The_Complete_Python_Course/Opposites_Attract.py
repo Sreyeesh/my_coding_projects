@@ -6,24 +6,30 @@ Write a function that will take the number of petals of each flower and return t
 
 """
 
-flower1 =list(range(1,101))
-flower2 = list(range(0,101))
+flower1 =list(range(10))
+
+#don't have two lists  with identical numbers try to use one list 
+
+flower2 = list(range(1,11))
 
 
 def lovefunc( flower1, flower2 ):
-    for p in flower1 and flower2:
+    for p in flower1 and flower2: #fix the for loop 
         # print(f'this the number of even petals in flower 1:',p)
         
-        if(p %2) == 0:
+        if(p %2 ) == 0:
             print(f'petal in flower1 is even',p)
             print('they are in love')
+            # return True
             
         else:
             print(f'petal in flower2  is odd',p) 
+            # return False
            
                
-        if(p %2)  != 0:
+        if(p %2 )  != 0:
             print(f'they are not in love',p)
+            # return False
 
 lovefunc(flower1,flower2)
 
