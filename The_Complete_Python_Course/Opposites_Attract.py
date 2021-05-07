@@ -51,9 +51,5 @@ def lovefunc(flower1,flower2):
             # print('flower one petals picked ',petal1,' petals pick  ', petal2,'Timmy and Sarah are not  in love')
                 
     
-
-            
-  
-      
 print(lovefunc(flower1,flower2))     
 
