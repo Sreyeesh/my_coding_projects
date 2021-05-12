@@ -7,8 +7,8 @@ Write a function that will take the number of petals of each flower and return t
 """
 
 #picked a flower each
-flower1 =  range(2,13)
-flower2 =  range(1,10)
+flower1 =  range(1,101)
+flower2 =  range(1,100)
 
 def lovefunc(flower1,flower2):
     
@@ -40,6 +40,7 @@ def lovefunc(flower1,flower2):
     #             return True  # They are in Love
       
     # return False  # They are not in False
+    
     for petal1 in flower1:
         for petal2 in flower2:
             if petal1 % 2 == 0 and petal2 % 2 == 1  or petal2 % 2 == 0 and petal1 % 2 ==1: 
