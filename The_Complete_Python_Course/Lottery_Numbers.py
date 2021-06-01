@@ -1,6 +1,3 @@
-lottery_numbers = {13, 21, 22, 5, 8}
-
-
 """
 A player looks like this:
 
@@ -10,9 +7,9 @@ A player looks like this:
 }
 
 Define a list with two players (you can come up with their names and numbers).
+
 """
 
-players = []
 
 """
 For each of the two players, print out a string like this: "Player PLAYER_NAME got 3 numbers right.".
@@ -22,3 +19,29 @@ Then construct a string and print it out.
 
 Remember: the string must contain the player's name and the amount of numbers they got right!
 """
+
+
+lottery_numbers = {13, 21, 22, 5, 8}
+
+
+players = []
+
+
+players = [
+    {
+        'name': 'Rolf',
+        'numbers': (13, 22, 3, 6, 9)
+    },
+    {
+        'name': 'John',
+        'numbers': (22, 3, 5, 7, 9)
+    }
+]
+
+for player in players: 
+    print(player['name'])
+    print(player['numbers'])
+    
+    
+     
+    
