@@ -42,7 +42,7 @@ for player in players:
     
 
 
-print("Hello, {player} {number}.".format(name=player['name'], number=player['number'])
+# print("Hello, {player} {number}.".format(name=player['name'], number=player['number'])
 
 
 
