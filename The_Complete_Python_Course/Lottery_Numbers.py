@@ -24,14 +24,36 @@ Remember: the string must contain the player's name and the amount of numbers th
 lottery_numbers = {13, 21, 22, 5, 8}
 
 
-players = []
+players = [ {'name':'Ross',
+            'number':{23,98,5,2,21} 
+
+}, 
+
+{'name': 'Rachel',
+ 'number': {25,22,8,12,13}
+
+}
+
+]
+
+  
+for player in players: 
+    print(player['name'],player['number'].intersection(lottery_numbers))
+    
+
+
+print("Hello, {player} {number}.".format(name=player['name'], number=player['number'])
 
 
 
 
 
+# player_one_match = lottery_numbers.intersection(players[0]["number"])
+# print(player_one_match)
+
+# player_two_match = lottery_numbers.intersection(players[1]["number"])
+# print(player_two_match)
 
 
 
-     
     
