@@ -36,24 +36,11 @@ players = [ {'name':'Ross',
 
 ]
 
-  
+
 for player in players: 
-    print(player['name'],player['number'].intersection(lottery_numbers))
-    
-
-
-# print("Hello, {player} {number}.".format(name=player['name'], number=player['number'])
-
-
-
-
-
-# player_one_match = lottery_numbers.intersection(players[0]["number"])
-# print(player_one_match)
-
-# player_two_match = lottery_numbers.intersection(players[1]["number"])
-# print(player_two_match)
-
-
-
-    
+    player_one_name = players[0]['name']
+    player_two_name = players[1]['name']
+    numbers_correct = player['number'].intersection(lottery_numbers)
+    print(f"Players {player_one_name} got {len(numbers_correct)} numbers right.")
+    print(f"Players {player_two_name} got {len(numbers_correct)} numbers right.")
+    print('Hello,{}.You matched these numbers {} right'.format(player['name'],numbers_correct))
