@@ -41,7 +41,7 @@ for player in players:
     player_one_name = players[0]['name']
     player_two_name = players[1]['name']
     numbers_correct = player['number'].intersection(lottery_numbers)
-    print(f"Players {player_one_name} got {len(numbers_correct)} numbers right.")
-    print(f"Players {player_two_name} got {len(numbers_correct)} numbers right.")
-    print('Hello,{}.You matched these numbers {} right'.format(player['name'],numbers_correct))
+    print(f"{player_one_name} got {len(numbers_correct)} numbers right.")
+    print(f"{player_two_name} got {len(numbers_correct)} numbers right.")
+    # print('Hello,{}.You matched these numbers {} right'.format(player['name'],numbers_correct))
   
