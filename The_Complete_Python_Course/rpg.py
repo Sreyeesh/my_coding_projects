@@ -1,5 +1,0 @@
-"""
-text based rpg
-
-"""
-
