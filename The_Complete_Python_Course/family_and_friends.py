@@ -17,7 +17,8 @@ user_name = input("Enter your name: ")
 
 if user_name in friends: 
     print(user_name)
-else: 
-    print ("you are family")
+else:
+    print ("you are a death eater")
+
 
 
