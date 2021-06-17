@@ -4,9 +4,7 @@ import os
 
 #add list to the friends who want to join in the coffee shop 
 
-# first_name = input(' name of user ')
-
-# age = input('age of user ')
+#  
 
 
 list_of_friends = ['Ross', 'Rachel','Monica','Chandler', 'Joey','Phoebe']
