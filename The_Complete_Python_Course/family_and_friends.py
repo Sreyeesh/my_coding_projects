@@ -21,4 +21,3 @@ else:
     print ("you are a death eater")
 
 
-
