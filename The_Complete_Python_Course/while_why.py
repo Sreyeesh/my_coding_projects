@@ -13,4 +13,8 @@ while the_force:
     else:
         print('If Once You Start Down The Dark Path, Forever Will it Dominate Your Desitny!')
         break
-   
+
+order_66 = input('Would you like to initiate Order 66, if you believe in the darkside of the force ?(yes/no)')
+    
+if order_66 == "yes":
+    print(f'Emperor will execute order 66 !')
