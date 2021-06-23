@@ -1,6 +1,6 @@
 user_menu = input('please enter p or q: ')
 
-while user_menu != 'q':
+while user_menu != 'q':  #run the code below as long as the user doesn't hit the letter q  that's what !=
 
     if user_menu == 'p':
 
