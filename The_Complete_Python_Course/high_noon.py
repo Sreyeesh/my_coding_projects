@@ -8,21 +8,52 @@ Get the time when it's high noon somewhere in the world.
 
 """
 
-from datetime import date, datetime
-import time
+  
+from datetime import datetime
 import pytz
+import time
+# from playsound import playsound
 
 utc = pytz.utc
-today_time = time.ctime()
-world_timezones = pytz.all_timezones #this is already list of  all time zones and not the actual time. 
 
+# this is already list of  all time zones and not the actual time.
 
+world_timezones = pytz.all_timezones
 
+# print(len(world_timezones))
+# print(world_timezones[0:359])
+# print(type(world_timezones))
 
-
-# print(world_timezones)
-# print(today_time)
-# print(utc)
-
-
+for t in world_timezones[0:359]:
+    print(t)
+    # print(datetime.now(pytz.timezone(t)).strftime('%a %d %b %Y %I:%M:%S.%f %p %z'))
+    
+    # if datetime.now(pytz.timezone(t).strftime('%H:%M %p')) ==  '12:00 PM': 
+    #     print(f'In {t} it\s high noon.')
+    current_time = datetime.now(pytz.timezone(t)).strftime('%H:%M %p')
+    
+    if current_time == "12:00 PM":
+        # playsound('/mnt/c/Users/sgari/Documents/my_coding_projects/The_Complete_Python_Course/high_noon.mp3')
+        print(f"In {t} it\'s high noon now.")
+    else:
+        print(f"In {t} it's {current_time} now.")
+        # playsound('/mnt/c/Users/sgari/Documents/my_coding_projects/The_Complete_Python_Course/prepare_to_attack.mp3')
+        # print('prepare to attack.')
+        
+        
+        
+        
+        
+    
+  
+        
+  
+   
+    
+    
+# for t in world_timezones:
+#     print(t)
+#     print(datetime.now(pytz.timezone(t)).strftime('%a %d %b %Y %I:%M:%S.%f %p %z'))
+    
+#     if t in world_timezones ==
 
