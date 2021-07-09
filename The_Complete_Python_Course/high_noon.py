@@ -32,9 +32,9 @@ for t in world_timezones[0:359]:
     #     print(f'In {t} it\s high noon.')
     current_time = datetime.now(pytz.timezone(t)).strftime('%H:%M %p')
     
-    if current_time == "12:00 PM":
+    if current_time == "12:20 PM":
         # playsound('/mnt/c/Users/sgari/Documents/my_coding_projects/The_Complete_Python_Course/high_noon.mp3')
-        print(f"In {t} it\'s high noon now.")
+        print(f"In {t} it\'s high noon.")
     else:
         print(f"In {t} it's {current_time} now.")
         # playsound('/mnt/c/Users/sgari/Documents/my_coding_projects/The_Complete_Python_Course/prepare_to_attack.mp3')
