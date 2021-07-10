@@ -12,7 +12,8 @@ Get the time when it's high noon somewhere in the world.
 from datetime import datetime
 import pytz
 import time
-# from playsound import playsound
+from playsound import playsound
+
 
 utc = pytz.utc
 
@@ -32,28 +33,24 @@ for t in world_timezones[0:359]:
     #     print(f'In {t} it\s high noon.')
     current_time = datetime.now(pytz.timezone(t)).strftime('%H:%M %p')
     
-    if current_time == "12:20 PM":
-        # playsound('/mnt/c/Users/sgari/Documents/my_coding_projects/The_Complete_Python_Course/high_noon.mp3')
+    if current_time == '12:00 PM':
+        playsound('/Users/sreyeeshgarimella/Documents/my_coding_projects/The_Complete_Python_Course/high_noon.mp3')
         print(f"In {t} it\'s high noon.")
+        
     else:
         print(f"In {t} it's {current_time} now.")
         # playsound('/mnt/c/Users/sgari/Documents/my_coding_projects/The_Complete_Python_Course/prepare_to_attack.mp3')
         # print('prepare to attack.')
-        
-        
-        
-        
-        
     
-  
-        
-  
    
-    
-    
-# for t in world_timezones:
-#     print(t)
-#     print(datetime.now(pytz.timezone(t)).strftime('%a %d %b %Y %I:%M:%S.%f %p %z'))
-    
-#     if t in world_timezones ==
+        
 
+        
+        
+        
+        
+        
+    
+  
+        
+  
