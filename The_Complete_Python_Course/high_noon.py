@@ -35,13 +35,14 @@ for t in world_timezones[0:359]:
     
     if current_time == '12:00 PM':
         playsound('/Users/sreyeeshgarimella/Documents/my_coding_projects/The_Complete_Python_Course/high_noon.mp3')
-        print("It\'s high noon.")
-        continue
+        # print("It\'s {t} high noon.")
+        print(f"In {t} it\'s {current_time} high noon.")
         
     else:
-        print("It ain\'t my  time.")
+        # print("It ain\'t my  time.")
         playsound('/Users/sreyeeshgarimella/Documents/my_coding_projects/The_Complete_Python_Course/My_Time.mp3')
-        break
+        print(f"In {t} ain\'t {current_time} my time")
+        break 
         # print('prepare to attack.')
     
    
