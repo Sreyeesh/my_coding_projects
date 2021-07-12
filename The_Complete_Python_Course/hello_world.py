@@ -1,20 +1,10 @@
-import os 
+from kivy.app import App
+from kivy.uix.label import Label 
 
-# os.system('clear')
-
-#add list to the friends who want to join in the coffee shop 
-
-#  
-
-
-list_of_friends = ['Ross', 'Rachel','Monica','Chandler', 'Joey','Phoebe']
-
-list_of_friends.append(first_name)
-len(list_of_friends)
+class Myapp(App):
+    def build(self):
+        return Label(text ="Hello world")
 
 
-
-
-
-
-print(list_of_friends[0:4])
+if __name__ == '__main__':
+    Myapp().run()

@@ -3,6 +3,8 @@ Project: near_by_friends
 
 Author : Sreyeesh Garimella 
 
+make this into an actual program
+
 Date: 4/22/2021
 
 
